@@ -27,4 +27,4 @@ Further information about the different fetching methods can be found here:
 
 There are projects where the different Spring JPA repository types are implemented.
 Further information about the different repository types can be found here:
-* 
+* [Spring Data JPA Repository](spring-data-jpa-repository/spring-data-jpa-repository.md)
