@@ -20,3 +20,4 @@ Following method exists:
 * [Example API](spring-data-jpa-fetch-query-by-example/spring-data-jpa-fetch-query-by-example.md)
 * [@NamedQuery](spring-data-jpa-fetch-named-query/spring-data-jpa-fetch-named-query.md)
 * [Query Method](spring-data-jpa-fetch-query-method/spring-data-jpa-fetch-query-method.md)
+* [@Embedded](spring-data-jpa-fetch-embedded/spring-data-jpa-fetch-embedded.md)

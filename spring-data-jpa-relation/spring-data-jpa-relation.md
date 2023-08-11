@@ -20,7 +20,7 @@ Best Practices:
 > Prefer bidirectional associations:
 Unidirectional associations are more difficult to query. In a large application, almost all associations must be navigable in both directions in queries.
 
-## [One-To-One relation](spring-data-jpa-relation-oto/spring-data-jpa-relation-oto.md)
+## One-To-One relation
 Association types:
 * Foreign Key
    * Unidirectional association
@@ -29,7 +29,7 @@ Association types:
 * Join Table
 
 _Based on:_ [One-to-One Relationship in JPA](https://www.baeldung.com/jpa-one-to-one)
-## [One-To-Many and Many-to-One relation](spring-data-jpa-relation-otm/spring-data-jpa-relation-otm.md)
+## One-To-Many and Many-to-One relation
 Association types:
 * Unidirectional association
   * ~~One-to-Many~~
@@ -38,6 +38,7 @@ Association types:
   * One-to-Many
   * Many-to-One
 * @ElementCollection
+* JoinTable
 
 **Warning:** Do not use unidirectional one-to-many association. Under the hood an extra table is created for the relation and many unnecessary operations are exectued. See the source for more inforamtion.
 
@@ -45,7 +46,7 @@ _Based on:_
 * [Best Practices for Many-To-One and One-To-Many Association Mappings](https://thorben-janssen.com/best-practices-many-one-one-many-associations-mappings/)
 * [Best Practices for Many-To-One and One-To-Many Association Mappings](https://www.youtube.com/watch?v=tciSOIQngig)
 * [Hibernate One to Many Annotation Tutorial](https://www.baeldung.com/hibernate-one-to-many)
-## [Many-to-Many relation](spring-data-jpa-relation-mtm/spring-data-jpa-relation-mtm.md)
+## Many-to-Many relation
 Association types:
 * Basic Implementation
 * Using a Composite Key

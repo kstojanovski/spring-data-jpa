@@ -12,6 +12,7 @@
   * One-to-Many
   * Many-to-One
 * @ElementCollection
+* JoinTable
 ### Warning
  * Do not use unidirectional one-to-many association. Under the hood an extra table is created for the relation and many unnecessary operations are exectued. See the source for more inforamtion.
 ### Note
@@ -22,16 +23,24 @@
 ## Bidirectional association - owning side
 ### One-to-Many
 ### Many-to-One
-### @ElementCollection
-#### Source 
+## @ElementCollection
+### Source
 * [Java Persistence/Embeddables](https://en.wikibooks.org/wiki/Java_Persistence/Embeddables)
 * [Hibernate Tip: How to use @ElementCollection entries in a query - Thorben Janssen](https://www.youtube.com/watch?v=ZIUNfJAhDv4)
-#### Introduction
+### Introduction
 A collection of embeddable objects is similar to a OneToMany except the target objects are embeddables and have no Id. This allows for a OneToMany to be defined without a inverse ManyToOne, as the parent is responsible for storing the foreign key in the target object's table.
-#### Components
+### Components
 Following elements belong to this appoach:
 * @ElementCollection#
 * @Embeddable
 * @Embedded
-#### Warning
+### Warning
 This approch does not work efficiently and should be used only when on the many side few elements exist. 
+## Join Table
+### Source
+An collegue (M. L.) presented this solution at work.
+### Introduction
+One-to-Many and Many-to-One relation can also be implemented with a extra relation table between the entities with the keyword JoinTable. The annotation should be placed on both entities.
+### Warning
+* Both sides need to have set the fetch type to lazy `FetchType.Lazy`
+* Also @JsonIgnoreProperties nees to be added for avoidign nested call which leads to StackOverlowError.
