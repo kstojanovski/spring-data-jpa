@@ -1,0 +1,27 @@
+{
+  "application": {
+    "name": "Actuator info",
+    "description": "A demo Spring project with information"
+  },
+  "organization": "How to do in Java",
+  "java": {
+    "version": "21.0.2",
+    "vendor": {
+      "name": "Oracle Corporation"
+    },
+    "runtime": {
+      "name": "OpenJDK Runtime Environment",
+      "version": "21.0.2+13-58"
+    },
+    "jvm": {
+      "name": "OpenJDK 64-Bit Server VM",
+      "vendor": "Oracle Corporation",
+      "version": "21.0.2+13-58"
+    }
+  },
+  "os": {
+    "name": "Linux",
+    "version": "6.6.19-1-MANJARO",
+    "arch": "amd64"
+  }
+}
