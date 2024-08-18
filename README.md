@@ -10,6 +10,7 @@ Here you can find information about JPA (Java Persistence API), Hibernate (JPA i
 Further information about JPA knowledge can be found here:
 * [JPA Knowledge](jpa-knowledge.md)
 * [JPA Knowledge - Syntax](jpa-knowledge-syntax.md)
+* [JPA Annotations](jpa-annotations.md)
 
 ## Spring JPA - DB relation
 
