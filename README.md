@@ -1,12 +1,12 @@
-# Spring JPA (Java Persistence API - Application Programming Interaface)
+# Spring JPA (Java Persistence API - Application Programming Interface)
 
 ## Introduction
 
-This project shows how Spring JPA and its the implementation, hibernate are used in the DB communication.
+This project shows how Spring JPA and its implementation, hibernate are used in the DB communication.
 
 ## JPA knowledge
 
-Here you can find inforamtion about JPA (Java Persistence API), Hiberante (JPA implementation) and Spring JPA (JPA and Hibernate with Spring specific features).
+Here you can find information about JPA (Java Persistence API), Hibernate (JPA implementation), and Spring JPA (JPA and Hibernate with Spring-specific features).
 Further information about JPA knowledge can be found here:
 * [JPA Knowledge](jpa-knowledge.md)
 * [JPA Knowledge - Syntax](jpa-knowledge-syntax.md)
