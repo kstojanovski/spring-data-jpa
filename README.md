@@ -11,6 +11,7 @@ Further information about JPA knowledge can be found here:
 * [JPA Knowledge](jpa-knowledge.md)
 * [JPA Knowledge - Syntax](jpa-knowledge-syntax.md)
 * [JPA Annotations](jpa-annotations.md)
+* [JPA Special Cases](./spring-data-jpa-special-cases/jpa-special-cases.md)
 
 ## Spring JPA - DB relation
 
